@@ -101,7 +101,7 @@ h2 span {
     color: #fff;
 }
 .skill-items {
-    width: 216px;
+    width: 300px;
     padding-left: 23px;
     border-left: 1px solid #96a9c4;
     margin: 0 auto;
@@ -155,4 +155,8 @@ h2 span {
 }
 .footer img {
     margin-left: 24px;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
 }
