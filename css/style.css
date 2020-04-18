@@ -2,15 +2,15 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: Microsoft JhengHei, "Source Sans Pro", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+}
+
 .container {
     margin: auto 18.75%;
 }
 
-body {
-    font-family: Microsoft JhengHei, "Source Sans Pro", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-}
-
-.header h1 {
+.name {
     text-align: left;
     font-size: 80px;
     line-height: 90px;
@@ -28,7 +28,7 @@ body {
     margin-bottom: 48px;
 }
 
-h2 {
+.bodyHeader {
     font-size: 32px;
     line-height: 45px;
     padding-bottom: 8px;
@@ -36,7 +36,7 @@ h2 {
     margin-bottom: 16px;
     font-weight: bold;
 }
-h2 span {
+.bodyHeader span {
     font-size: 24px;
     line-height: 32px;
     margin-left: 16px;
@@ -82,7 +82,7 @@ h2 span {
     margin-bottom: 72px;
     padding: 24px 8.5% 55px 8.5%;
 }
-.skill-bg {
+.skillBg {
     position: absolute;
     top: 50px;
     bottom: 50px;
@@ -93,65 +93,79 @@ h2 span {
     background-color: #96a9c4;
 }
 .skill h2 {
+    font-size: 32px;
+    line-height: 45px;
+    padding-bottom: 8px;
+    font-weight: bold;
     border-bottom: 1px solid #fff;
     text-align: center;
     margin-bottom: 40px;
 }
-.skill span {
+.skill h2 span {
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 16px;
     color: #fff;
 }
-.skill-items {
+.skillItems {
     width: 300px;
     padding-left: 23px;
     border-left: 1px solid #96a9c4;
     margin: 0 auto;
 }
-.skill-item {
+.skillItems li {
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 16px;
 }
 
-.exp-items {
+.expItems {
     border-left: 1px solid #96a9c4;
     padding-left: 24px;
     margin-left: 24px;
     margin-bottom: 72px;
 }
 
-.exp-item {
+.expItems li {
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 8px;
     font-weight: bold;
 }
-.exp-items p {
+.expItems p {
     margin-bottom: 24px;
-    width: 642px;
+    width: 80%;
     font-size: 20px;
     line-height: 30px;
 }
-.exp-items img {
+.expItems img {
     margin-bottom: 8px;
 }
 .footer {
     background: #415165;
-    width:100%;
+    width: 100%;
     color: #fff;
     text-align: center;
     padding: 24px 18.75% 48px 18.75%;
 }
-.footer h2{
+.footer h2 {
+    font-size: 32px;
+    line-height: 45px;
+    padding-bottom: 8px;
+    font-weight: bold;
     border-bottom: 1px solid #fff;
     margin-bottom: 32px;
 }
-.footer li{
+.footer li {
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 16px;
 }
 .footer span {
-    color:#fff;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 16px;
+    color: #fff;
 }
 .footer img {
     margin-left: 24px;
